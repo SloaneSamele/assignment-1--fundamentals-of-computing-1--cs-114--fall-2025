@@ -7,6 +7,10 @@ public class Assignment1Program1 {
     int randomNum;
     final int BASE = 32;
     final double CONVERSION_FACTOR = (9.0/5.0);
+    
+    Scanner input = new Scanner(System.in);
+    Random generator = new Random();
+
     System.out.println("  SSSS          SSSS  ");
     System.out.println("SS    SS      SS    SS");
     System.out.println("SSS           SSS     ");
@@ -16,5 +20,10 @@ public class Assignment1Program1 {
     System.out.println("SS     SS       SS     SS");
     System.out.println("   SSS             SSS  ");
 
+    System.out.println("Enter a 5 character String:");
+    message = input.nextLine();
+    System.out.println("Enter a temperture in Farhenheit:");
+    temp = input.nextFloat();
+    input.close();
   }
 }
