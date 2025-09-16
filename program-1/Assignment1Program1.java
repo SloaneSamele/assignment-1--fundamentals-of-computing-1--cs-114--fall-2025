@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.Random;
 public class Assignment1Program1 {
   public static void main(String[] args) {
     System.out.println("  SSSS          SSSS  ");
