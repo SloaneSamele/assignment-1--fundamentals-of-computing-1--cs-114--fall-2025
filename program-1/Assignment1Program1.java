@@ -5,6 +5,8 @@ public class Assignment1Program1 {
     String message;
     double temp;
     int randomNum;
+    final int BASE = 32;
+    final double CONVERSION_FACTOR = (9.0/5.0);
     System.out.println("  SSSS          SSSS  ");
     System.out.println("SS    SS      SS    SS");
     System.out.println("SSS           SSS     ");
@@ -12,7 +14,7 @@ public class Assignment1Program1 {
     System.out.println("    SSS           SSS  ");
     System.out.println("      SS            SS");
     System.out.println("SS     SS       SS     SS");
-    System.out.println("   SSS              SSS  ");
+    System.out.println("   SSS             SSS  ");
 
   }
 }
