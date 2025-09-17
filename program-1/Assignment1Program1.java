@@ -34,6 +34,9 @@ public class Assignment1Program1 {
     temp = CONVERSION_FACTOR *(temp - BASE);
     
     message = temp + message;
+    System.out.println("Generating Numbers....");
+    randomNum = generator.nextInt(16385) + BASE;
+    message = message + randomNum;
     input.close();
   }
 }
