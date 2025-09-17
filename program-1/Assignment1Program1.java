@@ -29,14 +29,20 @@ public class Assignment1Program1 {
 
     builder = new StringBuilder(message);
     message = builder.reverse().toString();
+
+
     System.out.println("Enter a temperture in Farhenheit:");
     temp = input.nextFloat();
     temp = CONVERSION_FACTOR *(temp - BASE);
     
     message = temp + message;
+
     System.out.println("Generating Numbers....");
     randomNum = generator.nextInt(16385) + BASE;
+
     message = message + randomNum;
+
+    System.out.println("Your new string is: " + message);
     input.close();
   }
 }
