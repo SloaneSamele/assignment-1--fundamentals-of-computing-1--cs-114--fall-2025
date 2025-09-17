@@ -30,7 +30,6 @@ public class Assignment1Program1 {
     builder = new StringBuilder(message);
     message = builder.reverse().toString();
 
-
     System.out.println("Enter a temperture in Farhenheit:");
     temp = input.nextFloat();
     temp = CONVERSION_FACTOR *(temp - BASE);
