@@ -1,5 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
+import java.lang.StringBuilder;
+
 public class Assignment1Program1 {
   public static void main(String[] args) {
     String message;
@@ -24,6 +26,9 @@ public class Assignment1Program1 {
     message = input.nextLine();
     System.out.println("Enter a temperture in Farhenheit:");
     temp = input.nextFloat();
+    temp = CONVERSION_FACTOR *(temp - BASE);
+    
+    message = temp + message;
     input.close();
   }
 }
