@@ -12,8 +12,24 @@ public class Assignment1Program2 {
     base = input.nextInt();
     num = base - 1;
     maxium = ((num* (base * base * base)) + (num * (base * base)) + (num * base) + (num));
+    
     System.out.println("The maxium base 10 number in base "+ base + " is "+ maxium + "\nPlease enter a number between 0 - " + maxium);
     num = input.nextInt();
+    
+    num2 = num/base;
+    outputNum = num % base;
+    
+    outputNum = ((num2 % base) * 10) + outputNum;
+    num2 = num2/base;
+
+    outputNum = ((num2 % base) * 100) + outputNum;
+    num2 = num2/base;
+    outputNum = ((num2 % base) * 1000) + outputNum;
+    num2 = num2/base;
+
+    System.out.println(num +"(base 10) = " + outputNum + "(base "+ base + ")");
     input.close();
+
+    
   }
 }
