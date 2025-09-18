@@ -20,7 +20,6 @@ public class Assignment1Program2 {
     
     outputNum = ((num2 % base) * 10) + outputNum;
     num2 = num2/base;
-
     outputNum = ((num2 % base) * 100) + outputNum;
     num2 = num2/base;
     outputNum = ((num2 % base) * 1000) + outputNum;
@@ -28,7 +27,5 @@ public class Assignment1Program2 {
 
     System.out.println(num +"(base 10) = " + outputNum + "(base "+ base + ")");
     input.close();
-
-    
   }
 }
