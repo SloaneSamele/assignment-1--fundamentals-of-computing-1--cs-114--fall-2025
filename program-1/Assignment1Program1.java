@@ -20,8 +20,8 @@ public class Assignment1Program1 {
     System.out.println("  SSS           SSS  ");
     System.out.println("    SSS           SSS  ");
     System.out.println("      SS            SS");
-    System.out.println("SS     SS       SS     SS");
-    System.out.println("   SSS             SSS  ");
+    System.out.println("SS     SS     SS     SS");
+    System.out.println("   SSS           SSS   ");
 
     System.out.println("Enter a 5 character String:");
     message = input.nextLine();
